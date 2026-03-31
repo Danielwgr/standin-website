@@ -1,0 +1,68 @@
+# robots.txt voor standin.works
+# Gegenereerd: maart 2026
+
+# Alle zoekmachines toestaan
+User-agent: *
+Allow: /
+
+# Beheer- en privégebieden blokkeren
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /my-profile/
+Disallow: /dashboard/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /login/
+Disallow: /register/
+Disallow: /?s=
+Disallow: /search/
+
+# Onnodige parameters blokkeren
+Disallow: /*?utm_*
+Disallow: /*?ref=
+Disallow: /*?session=
+Disallow: /*?preview=
+
+# Crawl vertraging voor vriendelijkere crawling
+Crawl-delay: 1
+
+# Sitemap locatie
+Sitemap: https://standin.works/sitemap.xml
+
+# ══════════════════════════════════════════
+# Google specifiek
+# ══════════════════════════════════════════
+User-agent: Googlebot
+Allow: /
+Disallow: /my-profile/
+Disallow: /admin/
+Crawl-delay: 0
+
+# Google Images
+User-agent: Googlebot-Image
+Allow: /
+Disallow: /my-profile/
+
+# ══════════════════════════════════════════
+# Bing
+# ══════════════════════════════════════════
+User-agent: Bingbot
+Allow: /
+Disallow: /my-profile/
+Disallow: /admin/
+Crawl-delay: 1
+
+# ══════════════════════════════════════════
+# Ongewenste bots blokkeren
+# ══════════════════════════════════════════
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
