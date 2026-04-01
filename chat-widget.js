@@ -81,8 +81,8 @@
     }
     .si-hd-close:hover { background: rgba(255,255,255,.28); }
     .si-avatar-wrap { position: relative; z-index: 1; margin-bottom: 12px; display: flex; align-items: center; gap: 11px; }
-    .si-av-name { font-family: 'Playfair Display', Georgia, serif; font-size: 1rem; font-weight: 700; color: #fff; letter-spacing: -.01em; }
-    .si-av-name span { color: var(--si-gold); }
+    .si-av-name { font-family: 'DM Sans', sans-serif; font-size: .95rem; font-weight: 600; color: #fff; }
+    .si-av-sub { font-size: .72rem; color: rgba(255,255,255,.65); margin-top: 1px; }
     .si-av-circle {
       width: 44px; height: 44px; border-radius: 50%;
       background: linear-gradient(135deg, #C9906A, #8C2239);
@@ -309,7 +309,7 @@
           '<div class="si-hd-name">Stand<span>In</span></div>' +
           '<button class="si-hd-close" aria-label="Sluiten">' + ic.close + '</button>' +
         '</div>' +
-        '<div class="si-avatar-wrap"><div style="position:relative;flex-shrink:0"><div class="si-av-circle">S</div><div class="si-av-online"></div></div><div class="si-av-name">Stand<span>In</span></div></div>' +
+        '<div class="si-avatar-wrap"><div style="position:relative;flex-shrink:0"><div class="si-av-circle">S</div><div class="si-av-online"></div></div><div><div class="si-av-name">StandIn</div><div class="si-av-sub">Recruitmentbureau</div></div></div>' +
         '<div class="si-greeting"><h2>Hoi \uD83D\uDC4B</h2><p>Hoe kunnen we je helpen?</p></div>' +
       '</div>' +
 
