@@ -1,12 +1,540 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="nl" prefix="og: https://ogp.me/ns#">
 <head>
-  <meta charset="UTF-8"/>
-  <meta http-equiv="refresh" content="0; url=vacatures.html"/>
-  <title>StandIn Uitzendbureau</title>
-  <link rel="canonical" href="https://standin.works/"/>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>StandIn – recruitmentbureau voor Retail & Logistiek | Vacatures in heel Nederland</title>
+<meta name="description" content="StandIn is een onafhankelijk recruitmentbureau gespecialiseerd in retail, logistiek en industrie. Bekijk actuele vacatures bij ALDI, Rhenus, HEMA en meer. Wij staan naast jou – niet boven je."/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large"/>
+<meta name="theme-color" content="#6B1A2A"/>
+<link rel="canonical" href="https://standin.works/"/>
+<link rel="sitemap" type="application/xml" href="https://standin.works/sitemap.xml"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="StandIn recruitmentbureau"/>
+<meta property="og:title" content="StandIn – recruitmentbureau voor Retail & Logistiek"/>
+<meta property="og:description" content="Actuele vacatures bij ALDI, Rhenus Logistics en HEMA. Schrijf je gratis in."/>
+<meta property="og:url" content="https://standin.works/"/>
+<meta property="og:image" content="https://standin.works/og-image.jpg"/>
+<meta property="og:locale" content="nl_NL"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":["EmploymentAgency","LocalBusiness"],"name":"StandIn","url":"https://standin.works","foundingDate":"2019","founder":{"@type":"Person","name":"Elias Lachhab"},"address":{"@type":"PostalAddress","streetAddress":"Lichttoren 32","postalCode":"5611 BJ","addressLocality":"Eindhoven","addressRegion":"Noord-Brabant","addressCountry":"NL"},"telephone":"+31403041443","geo":{"@type":"GeoCoordinates","latitude":51.4407,"longitude":5.4776},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:30","closes":"17:30"}],"areaServed":[{"@type":"City","name":"Eindhoven"},{"@type":"City","name":"Weert"},{"@type":"City","name":"Helmond"},{"@type":"AdministrativeArea","name":"Noord-Brabant"},{"@type":"AdministrativeArea","name":"Limburg"}],"serviceType":["Recruitmentbureau","Personeelsbemiddeling","Detachering"],"priceRange":"€€"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Wat is de Wet DBA?","acceptedAnswer":{"@type":"Answer","text":"Sinds 1 januari 2025 handhaaft de Belastingdienst op schijnzelfstandigheid. Per 2026 zijn alle sectoren in scope."}},{"@type":"Question","name":"Wat is de Wtta?","acceptedAnswer":{"@type":"Answer","text":"Vanaf 1 januari 2027 moeten alle recruitmentbureaus officieel zijn toegelaten door de NAU. Handhaving start 1 januari 2028."}},{"@type":"Question","name":"Wat verdien ik als uitzendkracht in 2026?","acceptedAnswer":{"@type":"Answer","text":"Minimumuurloon €14,71 bruto per uur. Plus volledig gelijkwaardige arbeidsvoorwaarden conform CAO 2026."}},{"@type":"Question","name":"Verdwijnen nulurencontracten?","acceptedAnswer":{"@type":"Answer","text":"Ja. De Wet meer zekerheid flexwerkers (verwacht 1 jan 2027) verbiedt nulurencontracten. Ze worden vervangen door het bandbreedtecontract."}}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bordeaux:#6B1A2A;--bordeaux-mid:#8C2239;--blush:#F5E0DC;--cream:#FAF6F1;--warm-white:#FFFCF9;--charcoal:#1E1616;--muted:#796060;--gold:#C9906A;--gold-lt:#EDD5BE}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;background:var(--warm-white);color:var(--charcoal);overflow-x:hidden}
+
+/* NAV */
+nav.main-nav{position:fixed;top:0;width:100%;z-index:200;display:flex;align-items:center;justify-content:space-between;padding:1.1rem 5vw;background:rgba(255,252,249,0.94);backdrop-filter:blur(14px);border-bottom:1px solid rgba(107,26,42,0.09)}
+.logo{font-family:'Playfair Display',serif;font-size:1.65rem;font-weight:700;color:var(--bordeaux);letter-spacing:-0.03em;text-decoration:none}
+.logo span{color:var(--gold)}
+.nav-links{list-style:none;display:flex;gap:2.2rem;align-items:center}
+.nav-links a{text-decoration:none;font-size:0.88rem;font-weight:500;color:var(--charcoal);transition:color 0.2s}
+.nav-links a:hover{color:var(--bordeaux)}
+.nav-cta{background:var(--bordeaux)!important;color:#fff!important;padding:0.55rem 1.3rem;border-radius:50px;transition:background 0.2s}
+.nav-cta:hover{background:var(--bordeaux-mid)!important}
+
+/* HERO */
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:8rem 5vw 5rem;background:linear-gradient(135deg,var(--warm-white) 0%,var(--blush) 60%,var(--cream) 100%);position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;right:-10%;top:10%;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(107,26,42,0.06) 0%,transparent 70%);pointer-events:none}
+.hero-inner{max-width:720px;position:relative;z-index:1}
+.hero-badge{display:inline-flex;align-items:center;gap:0.5rem;background:var(--blush);color:var(--bordeaux);font-size:0.75rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:0.4rem 1rem;border-radius:50px;margin-bottom:1.5rem;animation:fadeUp 0.5s ease both}
+.hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.8rem,5.5vw,4.8rem);font-weight:700;line-height:1.1;animation:fadeUp 0.6s 0.1s ease both}
+.hero h1 em{font-style:italic;color:var(--bordeaux)}
+.hero-sub{margin-top:1.4rem;font-size:1.05rem;color:var(--muted);line-height:1.85;max-width:560px;animation:fadeUp 0.6s 0.2s ease both}
+.hero-btns{display:flex;gap:1rem;margin-top:2.4rem;flex-wrap:wrap;animation:fadeUp 0.6s 0.3s ease both}
+.btn-primary{display:inline-block;background:var(--bordeaux);color:#fff;padding:0.95rem 2.2rem;border-radius:50px;font-size:0.95rem;font-weight:700;text-decoration:none;box-shadow:0 8px 28px rgba(107,26,42,0.28);transition:all 0.22s}
+.btn-primary:hover{background:var(--bordeaux-mid);transform:translateY(-2px);box-shadow:0 14px 36px rgba(107,26,42,0.32)}
+.btn-outline{display:inline-block;background:transparent;color:var(--bordeaux);padding:0.93rem 2.1rem;border-radius:50px;font-size:0.93rem;font-weight:600;text-decoration:none;border:2px solid var(--bordeaux);transition:all 0.22s}
+.btn-outline:hover{background:var(--blush);transform:translateY(-2px)}
+.hero-stats{display:flex;gap:2.5rem;margin-top:3.5rem;animation:fadeUp 0.6s 0.4s ease both}
+.hero-stat strong{font-family:'Playfair Display',serif;font-size:2.4rem;font-weight:700;color:var(--bordeaux);display:block;line-height:1}
+.hero-stat span{font-size:0.78rem;color:var(--muted);font-weight:500;margin-top:0.25rem;display:block}
+
+/* SECTIONS */
+.section{padding:5.5rem 5vw}
+.bg-cream{background:var(--cream)}
+.sec-label{font-size:0.73rem;font-weight:700;letter-spacing:0.13em;text-transform:uppercase;color:var(--bordeaux);margin-bottom:0.8rem}
+.sec-title{font-family:'Playfair Display',serif;font-size:clamp(2rem,3.5vw,3rem);font-weight:700;line-height:1.2}
+.sec-title em{font-style:italic;color:var(--bordeaux)}
+.sec-sub{margin-top:1rem;font-size:1rem;color:var(--muted);line-height:1.8;max-width:560px}
+
+/* FILTERS */
+.filter-row{display:flex;gap:0.6rem;flex-wrap:wrap;margin:2rem 0 1.5rem}
+.fbtn{background:#fff;border:1.5px solid rgba(107,26,42,0.13);color:var(--charcoal);font-size:0.8rem;font-weight:500;padding:0.4rem 1rem;border-radius:50px;cursor:pointer;transition:all 0.2s;font-family:'DM Sans',sans-serif}
+.fbtn:hover,.fbtn.active{background:var(--bordeaux);color:#fff;border-color:var(--bordeaux)}
+
+/* VACATURE CARDS */
+.vac-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.2rem}
+.vac-card{background:#fff;border-radius:20px;padding:1.8rem 2rem;border:1px solid rgba(107,26,42,0.07);text-decoration:none;color:inherit;display:flex;flex-direction:column;gap:0.75rem;transition:transform 0.22s,box-shadow 0.22s}
+.vac-card:hover{transform:translateY(-4px);box-shadow:0 16px 42px rgba(107,26,42,0.11)}
+.vac-top{display:flex;justify-content:space-between;align-items:flex-start;gap:0.8rem}
+.vac-card h3{font-size:1rem;font-weight:700;line-height:1.35}
+.vac-cat{background:var(--blush);color:var(--bordeaux);font-size:0.68rem;font-weight:700;padding:0.22rem 0.7rem;border-radius:50px;white-space:nowrap;flex-shrink:0}
+.vac-card p{font-size:0.84rem;color:var(--muted);line-height:1.65;flex:1}
+.vac-meta{display:flex;gap:1rem;font-size:0.76rem;color:var(--muted);font-weight:500;flex-wrap:wrap}
+.wg-label{display:inline-flex;align-items:center;gap:0.35rem;font-size:0.72rem;font-weight:600}
+.wg-dot{width:6px;height:6px;border-radius:50%;background:#003B7C;flex-shrink:0}
+.vac-foot{display:flex;justify-content:space-between;align-items:center;padding-top:0.85rem;border-top:1px solid var(--blush)}
+.vac-type{background:var(--gold-lt);color:#6B3A1A;font-size:0.7rem;font-weight:700;padding:0.22rem 0.7rem;border-radius:50px}
+.vac-arr{color:var(--bordeaux);font-size:1.1rem;font-weight:700}
+
+/* BELOFTES */
+.beloftes-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.3rem;margin-top:2.5rem}
+.belofte{background:#fff;border-radius:20px;padding:2rem;border:1px solid rgba(107,26,42,0.06);transition:transform 0.25s,box-shadow 0.25s}
+.belofte:hover{transform:translateY(-4px);box-shadow:0 14px 38px rgba(107,26,42,0.09)}
+.bel-num{font-family:'Playfair Display',serif;font-size:2.5rem;font-weight:700;color:var(--blush);line-height:1;margin-bottom:0.9rem}
+.belofte h3{font-size:1rem;font-weight:700;color:var(--bordeaux);margin-bottom:0.5rem}
+.belofte p{font-size:0.875rem;color:var(--muted);line-height:1.75}
+
+/* OVER STANDIN */
+.over-grid{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center;margin-top:1rem}
+.over-text h2{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,3vw,2.6rem);font-weight:700;line-height:1.2;margin-bottom:1.2rem}
+.over-text h2 em{font-style:italic;color:var(--bordeaux)}
+.over-text p{font-size:0.94rem;color:var(--muted);line-height:1.85;margin-bottom:1rem}
+.over-nums{display:flex;gap:2rem;margin-top:2rem}
+.over-num strong{font-family:'Playfair Display',serif;font-size:1.8rem;color:var(--bordeaux);display:block;line-height:1}
+.over-num span{font-size:0.75rem;color:var(--muted)}
+.over-card{background:linear-gradient(135deg,var(--bordeaux) 0%,#9B2545 100%);border-radius:28px;padding:3rem;color:#fff}
+.founder-row{display:flex;align-items:center;gap:1.2rem;margin-bottom:1.5rem}
+.founder-av{width:58px;height:58px;border-radius:50%;background:var(--gold);color:var(--bordeaux);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1rem;flex-shrink:0}
+.founder-name{font-size:1.05rem;font-weight:700}
+.founder-role{font-size:0.77rem;color:rgba(255,255,255,0.65);margin-top:0.15rem}
+.founder-quote{font-size:0.92rem;line-height:1.75;color:rgba(255,255,255,0.85);font-style:italic;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,0.18)}
+
+/* KENNISCENTRUM */
+.kennis-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:1.3rem}
+.kennis-card{background:#fff;border-radius:20px;padding:1.8rem 2rem;border:1px solid rgba(107,26,42,0.07);display:flex;flex-direction:column;gap:0.85rem;transition:transform 0.22s,box-shadow 0.22s}
+.kennis-card:hover{transform:translateY(-3px);box-shadow:0 14px 36px rgba(107,26,42,0.09)}
+.ktop{display:flex;align-items:center;justify-content:space-between;gap:0.8rem}
+.ktag{font-size:0.68rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:0.25rem 0.7rem;border-radius:50px}
+.tag-wet{background:#FDE8E8;color:#8B1A1A}
+.tag-cao{background:#E8EEF9;color:#1A3A8B}
+.tag-markt{background:#E8F5E9;color:#1A6B2A}
+.tag-keur{background:#FFF3E0;color:#8B5A00}
+.tag-tips{background:#F3E8FF;color:#5A1A8B}
+.kdatum{font-size:0.72rem;color:var(--muted)}
+.kennis-card h3{font-size:0.98rem;font-weight:700;line-height:1.4;color:var(--charcoal)}
+.kennis-card p{font-size:0.84rem;color:var(--muted);line-height:1.72;flex:1}
+.kfoot{display:flex;align-items:center;justify-content:space-between;padding-top:0.8rem;border-top:1px solid var(--blush);font-size:0.78rem;color:var(--muted)}
+.kbadge{font-size:0.72rem;font-weight:600;color:var(--bordeaux)}
+.knieuw{background:var(--bordeaux);color:#fff;font-size:0.62rem;font-weight:700;text-transform:uppercase;padding:0.18rem 0.55rem;border-radius:50px}
+.kact{background:var(--blush);color:var(--bordeaux);font-size:0.62rem;font-weight:700;text-transform:uppercase;padding:0.18rem 0.55rem;border-radius:50px}
+
+/* HOE HET WERKT */
+.stappen-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-top:3rem;position:relative}
+.stappen-grid::after{content:'';position:absolute;top:1.5rem;left:6%;right:6%;height:2px;background:linear-gradient(to right,var(--blush),var(--bordeaux),var(--blush))}
+.stap{text-align:center;padding:0 0.5rem;position:relative;z-index:1}
+.stap-num{width:50px;height:50px;border-radius:50%;background:var(--bordeaux);color:#fff;font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 1.3rem;box-shadow:0 8px 22px rgba(107,26,42,0.28)}
+.stap h3{font-size:0.95rem;font-weight:700;margin-bottom:0.5rem}
+.stap p{font-size:0.82rem;color:var(--muted);line-height:1.65}
+
+/* CTA */
+.cta-strip{background:var(--bordeaux);padding:5rem 5vw;display:flex;align-items:center;justify-content:space-between;gap:2rem;flex-wrap:wrap}
+.cta-strip h2{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,3vw,2.8rem);color:#fff;font-weight:700;max-width:520px;line-height:1.2}
+.cta-strip h2 em{font-style:italic;color:var(--gold)}
+.btn-white{background:#fff;color:var(--bordeaux);padding:0.95rem 2.4rem;border-radius:50px;font-size:0.95rem;font-weight:700;text-decoration:none;box-shadow:0 8px 24px rgba(0,0,0,0.15);white-space:nowrap;transition:all 0.2s}
+.btn-white:hover{transform:translateY(-2px);background:var(--gold-lt)}
+
+/* PARTNERS */
+.partner-strip{background:var(--cream);padding:3.5rem 5vw;border-top:1px solid rgba(107,26,42,0.07)}
+.partner-label{font-size:0.73rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);margin-bottom:1.4rem}
+.partner-pills{display:flex;flex-wrap:wrap;gap:0.9rem}
+.partner-pill{display:inline-flex;align-items:center;gap:0.45rem;padding:0.7rem 1.4rem;border-radius:12px;border:1.5px solid rgba(107,26,42,0.12);background:#fff;font-size:0.83rem;font-weight:700;color:var(--charcoal);transition:box-shadow 0.2s,transform 0.2s}
+.partner-pill:hover{box-shadow:0 4px 16px rgba(107,26,42,0.1);transform:translateY(-1px)}
+.dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+
+/* FOOTER */
+footer{background:var(--charcoal);color:rgba(255,255,255,0.6);padding:4rem 5vw 2.5rem}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:3rem;padding-bottom:3rem;border-bottom:1px solid rgba(255,255,255,0.08)}
+.foot-logo{font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:700;color:#fff;margin-bottom:1rem}
+.foot-logo span{color:var(--gold)}
+.footer-brand p{font-size:0.85rem;line-height:1.75;color:rgba(255,255,255,0.55);max-width:280px}
+.foot-nums{display:flex;gap:2rem;margin-top:1.5rem}
+.f-num{font-family:'Playfair Display',serif;font-size:2rem;font-weight:700;color:var(--gold);line-height:1}
+.f-label{font-size:0.72rem;color:rgba(255,255,255,0.4);margin-top:0.25rem}
+.foot-nav h4{font-size:0.78rem;font-weight:700;color:rgba(255,255,255,0.8);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:1.2rem}
+.foot-nav ul{list-style:none;display:flex;flex-direction:column;gap:0.7rem}
+.foot-nav ul a{font-size:0.86rem;color:rgba(255,255,255,0.45);text-decoration:none;transition:color 0.2s}
+.foot-nav ul a:hover{color:#fff}
+.foot-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;padding-top:2rem;font-size:0.8rem;color:rgba(255,255,255,0.3)}
+.foot-legal{display:flex;gap:1.5rem;flex-wrap:wrap}
+.foot-legal a{color:rgba(255,255,255,0.35);text-decoration:none;transition:color 0.2s}
+.foot-legal a:hover{color:#fff}
+
+/* ANIMATIES */
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+
+/* RESPONSIVE */
+@media(max-width:1000px){
+  .over-grid{grid-template-columns:1fr;gap:2.5rem}
+  .stappen-grid{grid-template-columns:1fr 1fr}
+  .stappen-grid::after{display:none}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:2rem}
+}
+@media(max-width:860px){
+  .nav-links{gap:1rem}
+  .nav-links a{font-size:0.78rem}
+  .nav-cta{padding:0.45rem 0.9rem!important}
+  .logo{font-size:1.35rem}
+}
+@media(max-width:640px){
+  .nav-links li:not(:last-child):not(:nth-last-child(2)){display:none}
+  .hero h1{font-size:2.2rem}
+  .hero-stats{gap:1.2rem;flex-wrap:wrap}
+  .stappen-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr}
+  .cta-strip{flex-direction:column;text-align:center}
+  .vac-grid,.kennis-grid{grid-template-columns:1fr}
+}
+</style>
 </head>
 <body>
-  <p>Doorsturen naar <a href="vacatures.html">StandIn</a>...</p>
+
+<a href="#main" style="position:absolute;top:-40px;left:0;background:var(--bordeaux);color:#fff;padding:8px 16px;text-decoration:none;z-index:9999;border-radius:0 0 8px 0;font-size:0.85rem" onfocus="this.style.top='0'" onblur="this.style.top='-40px'">Ga naar hoofdinhoud</a>
+
+<!-- NAVIGATIE -->
+<nav class="main-nav" role="navigation" aria-label="Hoofdnavigatie">
+  <a href="/" class="logo" aria-label="StandIn – naar homepage">Stand<span>In</span></a>
+  <ul class="nav-links">
+    <li><a href="#vacatures">Vacatures</a></li>
+    <li><a href="#beloftes">Werkbeloftes</a></li>
+    <li><a href="#over">Over StandIn</a></li>
+    <li><a href="#kenniscentrum">Kenniscentrum</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="https://standin.works/my-profile/" class="nav-cta">Inloggen</a></li>
+  </ul>
+</nav>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero" aria-label="StandIn recruitmentbureau introductie">
+  <div class="hero-inner">
+    <div class="hero-badge">⭐ Onafhankelijk recruitmentbureau · actief sinds 2019</div>
+    <h1>recruitmentbureau voor<br>Retail &amp; <em>Logistiek.</em></h1>
+    <p class="hero-sub">StandIn is een onafhankelijk recruitmentbureau gespecialiseerd in retail, logistiek en industrie. Ruim zeven jaar expertise, 20+ partnerbedrijven, en één missie: de juiste mens op de juiste plek. Zonder externe aandeelhouders, met een warm hart voor mensen.</p>
+    <div class="hero-btns">
+      <a href="#vacatures" class="btn-primary">Bekijk vacatures →</a>
+      <a href="https://standin.works/my-profile/#tab2" class="btn-outline">Gratis inschrijven</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat"><strong>73</strong><span>Vacatures</span></div>
+      <div class="hero-stat"><strong>165</strong><span>Kandidaten</span></div>
+      <div class="hero-stat"><strong>20+</strong><span>Partnerbedrijven</span></div>
+      <div class="hero-stat"><strong>7 jr</strong><span>Actief</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- VACATURES -->
+<section class="section bg-cream" id="vacatures" aria-label="Actuele vacatures via StandIn">
+  <div class="sec-label">Open posities</div>
+  <h2 class="sec-title">Actuele vacatures via<br><em>StandIn recruitmentbureau</em></h2>
+  <p class="sec-sub">Actuele vacatures in retail, logistiek en distributie. Staat jouw rol er niet bij? Schrijf je in, wij denken graag met je mee.</p>
+
+  <div class="filter-row" role="group" aria-label="Filteropties vacatures">
+    <button class="fbtn active" onclick="filterVac('alle',this)">Alle functies</button>
+    <button class="fbtn" onclick="filterVac('winkel',this)">🛒 Winkel</button>
+    <button class="fbtn" onclick="filterVac('dc',this)">📦 Distributie</button>
+    <button class="fbtn" onclick="filterVac('kantoor',this)">💼 Kantoor</button>
+    <button class="fbtn" onclick="filterVac('leren',this)">📚 Werken &amp; Leren</button>
+  </div>
+
+  <div class="vac-grid" id="vacGrid">
+    <a href="/vacatures/hr-transformatie-consultant/" class="vac-card" data-cat="kantoor" aria-label="Vacature HR Transformatie Consultant bij ASN Bank via StandIn">
+      <div class="vac-top"><h3>HR Transformatie Consultant</h3><span class="vac-cat">HR</span></div>
+      <p>Begeleid de bedrijfsbrede reorganisatie bij ASN Bank in Utrecht. Werk met AFAS, Orgvue en Oracle HCM. ZZP toegestaan, 36 uur.</p>
+      <div class="vac-meta"><span>📍 Utrecht</span><span class="wg-label"><span class="wg-dot"></span>ASN Bank</span></div>
+      <div class="vac-foot"><span class="vac-type">Full Time · 36 uur</span><span class="vac-arr">→</span></div>
+    </a>
+    <a href="/vacatures/medewerker-klantenservice/" class="vac-card" data-cat="kantoor" aria-label="Vacature Medewerker Klantenservice bij ASN Bank via StandIn">
+      <div class="vac-top"><h3>Medewerker Klantenservice</h3><span class="vac-cat">Financieel</span></div>
+      <p>Behandel dagelijkse klantvragen over sparen, beleggen en lenen bij ASN Bank in Utrecht. Hybride werken, 36 uur per week.</p>
+      <div class="vac-meta"><span>📍 Utrecht</span><span class="wg-label"><span class="wg-dot"></span>ASN Bank</span></div>
+      <div class="vac-foot"><span class="vac-type">Full Time · 36 uur</span><span class="vac-arr">→</span></div>
+    </a>
+    <a href="/vacatures/recruiter/" class="vac-card" data-cat="kantoor" aria-label="Vacature Recruiter bij ALDI via StandIn">
+      <div class="vac-top"><h3>Recruiter (32–40 uur)</h3><span class="vac-cat">Kantoor</span></div>
+      <p>Coördineer alle wervingsactiviteiten in de regio, organiseer banenmarkten en inhousedagen, en zorg voor optimale personeelsbezetting.</p>
+      <div class="vac-meta"><span>📍 Zoetermeer</span><span class="wg-label"><span class="wg-dot"></span>ALDI</span></div>
+      <div class="vac-foot"><span class="vac-type">Full Time / Part Time</span><span class="vac-arr">→</span></div>
+    </a>
+    <a href="/vacatures/hr-business-partner/" class="vac-card" data-cat="kantoor" aria-label="Vacature HR Business Partner bij ALDI via StandIn">
+      <div class="vac-top"><h3>HR Business Partner (32–40 uur)</h3><span class="vac-cat">Kantoor</span></div>
+      <p>Sparringpartner voor leidinggevenden in Noord- en Zuid-Holland. Adviseer over HR-vraagstukken, begeleid verzuim en werk aan talentontwikkeling.</p>
+      <div class="vac-meta"><span>📍 Noord- en Zuid-Holland</span><span class="wg-label"><span class="wg-dot"></span>ALDI</span></div>
+      <div class="vac-foot"><span class="vac-type">Full Time / Part Time</span><span class="vac-arr">→</span></div>
+    </a>
+    <a href="/vacatures/vulploegmedewerker/" class="vac-card" data-cat="winkel" aria-label="Vacature Vulploegmedewerker bij ALDI">
+      <div class="vac-top"><h3>Vulploegmedewerker</h3><span class="vac-cat">Winkel</span></div>
+      <p>Vul doos voor doos de schappen en zie direct het resultaat. Ideaal als bijbaan of eerste stap op de arbeidsmarkt.</p>
+      <div class="vac-meta"><span>📍 Heel Nederland</span><span class="wg-label"><span class="wg-dot"></span>ALDI</span></div>
+      <div class="vac-foot"><span class="vac-type">Bijbaan / Part Time</span><span class="vac-arr">→</span></div>
+    </a>
+    <a href="/vacatures/verkoopmedewerker/" class="vac-card" data-cat="winkel" aria-label="Vacature Verkoopmedewerker bij ALDI">
+      <div class="vac-top"><h3>Verkoopmedewerker</h3><span class="vac-cat">Winkel</span></div>
+      <p>Flexibele werktijden en afwisselend werk: schappen vullen, bake-off begeleiden en klanten helpen aan de kassa.</p>
+      <div class="vac-meta"><span>📍 Heel Nederland</span><span class="wg-label"><span class="wg-dot"></span>ALDI</span></div>
+      <div class="vac-foot"><span class="vac-type">Part Time / Full Time</span><span class="vac-arr">→</span></div>
+    </a>
+    <a href="/vacatures/assistent-filiaalmanager/" class="vac-card" data-cat="winkel" aria-label="Vacature Assistent Filiaalmanager bij ALDI">
+      <div class="vac-top"><h3>Assistent Filiaalmanager</h3><span class="vac-cat">Winkel</span></div>
+      <p>Zet je eerste stap als leidinggevende. Werk samen aan een goed draaiende winkel en krijg ruimte om jezelf te bewijzen.</p>
+      <div class="vac-meta"><span>📍 Heel Nederland</span><span class="wg-label"><span class="wg-dot"></span>ALDI</span></div>
+      <div class="vac-foot"><span class="vac-type">Full Time</span><span class="vac-arr">→</span></div>
+    </a>
+    <a href="/vacatures/filiaalmanager/" class="vac-card" data-cat="winkel" aria-label="Vacature Filiaalmanager bij ALDI">
+      <div class="vac-top"><h3>Filiaalmanager</h3><span class="vac-cat">Winkel</span></div>
+      <p>Run je eigen winkel en bepaal zelf de uitdaging. Volop verantwoordelijkheid en ruimte om door te groeien.</p>
+      <div class="vac-meta"><span>📍 Heel Nederland</span><span class="wg-label"><span class="wg-dot"></span>ALDI</span></div>
+      <div class="vac-foot"><span class="vac-type">Full Time</span><span class="vac-arr">→</span></div>
+    </a>
+    <a href="/vacatures/district-sales-manager/" class="vac-card" data-cat="winkel" aria-label="Vacature District Sales Manager bij ALDI">
+      <div class="vac-top"><h3>District Sales Manager</h3><span class="vac-cat">Winkel</span></div>
+      <p>Stuur meerdere filialen aan en werk dagelijks aan de beste resultaten voor jouw district. Een echte leiderschapsrol.</p>
+      <div class="vac-meta"><span>📍 Regionaal</span><span class="wg-label"><span class="wg-dot"></span>ALDI</span></div>
+      <div class="vac-foot"><span class="vac-type">Full Time</span><span class="vac-arr">→</span></div>
+    </a>
+    <a href="/vacatures/magazijnmedewerker-orderpicker/" class="vac-card" data-cat="dc" aria-label="Vacature Magazijnmedewerker bij ALDI">
+      <div class="vac-top"><h3>Magazijnmedewerker (Orderpicker)</h3><span class="vac-cat">Distributie</span></div>
+      <p>Zorg dat alles in het DC op rolletjes loopt: van goederenontvangst tot klaarzetten voor de winkels.</p>
+      <div class="vac-meta"><span>📍 Meerdere DC's</span><span class="wg-label"><span class="wg-dot"></span>ALDI</span></div>
+      <div class="vac-foot"><span class="vac-type">Full Time / Part Time</span><span class="vac-arr">→</span></div>
+    </a>
+    <a href="/vacatures/vrachtwagenchauffeur/" class="vac-card" data-cat="dc" aria-label="Vacature Vrachtwagenchauffeur bij ALDI">
+      <div class="vac-top"><h3>Vrachtwagenchauffeur</h3><span class="vac-cat">Logistiek</span></div>
+      <p>Rij in de nieuwste trucks en bezorg bij filialen door heel Nederland. Rijbewijs CE halen? ALDI betaalt het volledig.</p>
+      <div class="vac-meta"><span>📍 Heel Nederland</span><span class="wg-label"><span class="wg-dot"></span>ALDI</span></div>
+      <div class="vac-foot"><span class="vac-type">Full Time</span><span class="vac-arr">→</span></div>
+    </a>
+    <a href="/vacatures/kantoor-hoofdkantoor/" class="vac-card" data-cat="kantoor" aria-label="Vacatures Kantoor en Hoofdkantoor bij ALDI">
+      <div class="vac-top"><h3>Kantoor &amp; Hoofdkantoor</h3><span class="vac-cat">Kantoor</span></div>
+      <p>Van HR tot finance, inkoop tot marketing: op het hoofdkantoor werken professionals aan de toekomst van een van de grootste discounters.</p>
+      <div class="vac-meta"><span>📍 Hoofdkantoor</span><span class="wg-label"><span class="wg-dot"></span>ALDI</span></div>
+      <div class="vac-foot"><span class="vac-type">Full Time</span><span class="vac-arr">→</span></div>
+    </a>
+    <a href="/vacatures/bbl-opleiding-retail-logistiek/" class="vac-card" data-cat="leren" aria-label="BBL Opleiding bij ALDI">
+      <div class="vac-top"><h3>BBL Opleiding Retail / Logistiek</h3><span class="vac-cat">Werken &amp; Leren</span></div>
+      <p>Werk en haal tegelijkertijd een landelijk erkend mbo-diploma (niveau 2, 3 of 4). Volledig gratis: jij groeit, ALDI betaalt.</p>
+      <div class="vac-meta"><span>📍 Heel Nederland</span><span class="wg-label"><span class="wg-dot"></span>ALDI</span></div>
+      <div class="vac-foot"><span class="vac-type">BBL · Opleiding betaald</span><span class="vac-arr">→</span></div>
+    </a>
+    <a href="/vacatures/stage-aldi/" class="vac-card" data-cat="leren" aria-label="Stage bij ALDI">
+      <div class="vac-top"><h3>Stage bij ALDI</h3><span class="vac-cat">Stage</span></div>
+      <p>Doe praktijkervaring op in de winkel, het DC of op het hoofdkantoor. Een echte leerschool bij een van de grootste retailers.</p>
+      <div class="vac-meta"><span>📍 Heel Nederland</span><span class="wg-label"><span class="wg-dot"></span>ALDI</span></div>
+      <div class="vac-foot"><span class="vac-type">Stage</span><span class="vac-arr">→</span></div>
+    </a>
+    <a href="/vacatures/vrachtwagenrijbewijs-ce/" class="vac-card" data-cat="leren" aria-label="CE rijbewijs halen via ALDI">
+      <div class="vac-top"><h3>Vrachtwagenrijbewijs halen (CE)</h3><span class="vac-cat">Opleiding</span></div>
+      <p>Passie voor grote vrachtwagens? ALDI betaalt volledig jouw CE-rijbewijs. Daarna direct aan de slag als chauffeur.</p>
+      <div class="vac-meta"><span>📍 Heel Nederland</span><span class="wg-label"><span class="wg-dot"></span>ALDI</span></div>
+      <div class="vac-foot"><span class="vac-type">Rijbewijs volledig betaald</span><span class="vac-arr">→</span></div>
+    </a>
+  </div>
+  <div style="text-align:center;margin-top:2.5rem">
+    <a href="https://standin.works/my-profile/#tab2" class="btn-primary">Staat jouw rol er niet bij? Schrijf je in →</a>
+  </div>
+</section>
+
+<!-- WERKBELOFTES -->
+<section class="section" id="beloftes" aria-label="De vijf werkbeloftes van StandIn">
+  <div class="sec-label">Onze beloftes</div>
+  <h2 class="sec-title">Onze vijf<br><em>werkbeloftes</em></h2>
+  <p class="sec-sub">Als je via StandIn werkt, krijg je meer dan een contract. Je krijgt vijf concrete garanties, elke dag opnieuw.</p>
+  <div class="beloftes-grid">
+    <div class="belofte"><div class="bel-num">01</div><h3>Carrièrebegeleiding met impact</h3><p>Wij verbinden ambitieuze professionals aan toonaangevende organisaties. Met persoonlijke loopbaancoaches zorgen wij dat jij altijd op de juiste plek zit.</p></div>
+    <div class="belofte"><div class="bel-num">02</div><h3>Continue groei via de StandIn Academy</h3><p>Trainingen, e-learnings en certificeringstrajecten die aansluiten op de marktvraag. Wij investeren in jouw skills, altijd maatwerk.</p></div>
+    <div class="belofte"><div class="bel-num">03</div><h3>Focus op jouw werkplezier</h3><p>Wij geloven dat succes begint bij plezier in je werk. Door nauw contact en regelmatige evaluaties zorgen we dat jij je thuis voelt.</p></div>
+    <div class="belofte"><div class="bel-num">04</div><h3>Kracht door diversiteit en inclusie</h3><p>Bij StandIn kijken we verder dan het cv. Unieke talenten worden gewaardeerd. Een eerlijk proces waarbij jouw kwaliteiten centraal staan.</p></div>
+    <div class="belofte"><div class="bel-num">05</div><h3>Zekerheid en welzijn</h3><p>Van marktconform salaris tot vitaliteitsprogramma's: StandIn zorgt dat de randvoorwaarden voor jou goed geregeld zijn.</p></div>
+  </div>
+</section>
+
+<!-- OVER STANDIN -->
+<section class="section bg-cream" id="over" aria-label="Over StandIn recruitmentbureau">
+  <div class="sec-label">Over ons</div>
+  <div class="over-grid">
+    <div class="over-text">
+      <h2>De koers van <em>StandIn</em></h2>
+      <p>StandIn is geen gewoon recruitmentbureau. Wij zijn een onafhankelijke personeelspartner zonder externe aandeelhouders, zonder commerciële druk van boven, met een zelfstandige koers gericht op duurzame groei.</p>
+      <p>Elias Lachhab startte eind 2019 met één duidelijke visie: barrières op de arbeidsmarkt doorbreken en duurzame professionele relaties opbouwen. De menselijke maat staat daarin centraal.</p>
+      <p>Onze aanpak heeft inmiddels geleid tot langdurige partnerschappen met ruim 20 organisaties in retail, industrie en zakelijke dienstverlening.</p>
+      <div class="over-nums">
+        <div class="over-num"><strong>7 jr</strong><span>Actief</span></div>
+        <div class="over-num"><strong>20+</strong><span>Partners</span></div>
+        <div class="over-num"><strong>165</strong><span>Kandidaten</span></div>
+      </div>
+      <div style="margin-top:2rem"><a href="over-standin.html" class="btn-outline">Lees meer over ons →</a></div>
+    </div>
+    <div class="over-card">
+      <div class="founder-row">
+        <div class="founder-av" aria-hidden="true">EL</div>
+        <div><div class="founder-name">Elias Lachhab</div><div class="founder-role">Oprichter &amp; Directeur StandIn</div></div>
+      </div>
+      <p class="founder-quote">"Ik geloof dat élke persoon het verdient om op een plek te werken die bij hem of haar past. StandIn bestaat om die verbinding te maken: eerlijk, transparant en met echte aandacht voor de mens achter het cv."</p>
+    </div>
+  </div>
+</section>
+
+<!-- KENNISCENTRUM -->
+<section class="section" id="kenniscentrum" aria-label="Kenniscentrum uitzendbranche wetgeving CAO">
+  <div class="sec-label">Kenniscentrum</div>
+  <h2 class="sec-title">Alles wat je moet weten<br><em>over de uitzendbranche</em></h2>
+  <p class="sec-sub">Van Wet DBA tot nieuwe CAO 2026: actuele informatie voor werkzoekenden én werkgevers. Bijgewerkt tot maart 2026.</p>
+
+  <div class="filter-row" role="group" aria-label="Filter kennisartikelen">
+    <button class="fbtn active" onclick="filterKennis('alle',this)">Alles</button>
+    <button class="fbtn" onclick="filterKennis('wet',this)">⚖️ Wetgeving</button>
+    <button class="fbtn" onclick="filterKennis('cao',this)">📋 CAO &amp; Beloning</button>
+    <button class="fbtn" onclick="filterKennis('keur',this)">✅ Keurmerken</button>
+    <button class="fbtn" onclick="filterKennis('markt',this)">📈 Arbeidsmarkt</button>
+    <button class="fbtn" onclick="filterKennis('tips',this)">💡 Tips</button>
+  </div>
+
+  <div class="kennis-grid" id="kennisGrid">
+    <article class="kennis-card" data-kcat="cao"><div class="ktop"><span class="ktag tag-cao">CAO &amp; Beloning</span><span class="kdatum">1 jan 2026</span></div><h3>Nieuwe CAO Uitzendkrachten 2026–2028: wat verandert er?</h3><p>Vanaf 1 januari 2026 geldt de nieuwe CAO, afgesloten door ABU, NBBU en LBV. De inlenersbeloning verdwijnt en wordt vervangen door volledig gelijkwaardige arbeidsvoorwaarden. Pensioenopbouw gaat in vanaf dag één. FNV tekende de CAO niet.</p><div class="kfoot"><span class="kbadge">📋 CAO 2026–2028</span><span class="kact">Actueel</span></div></article>
+    <article class="kennis-card" data-kcat="cao"><div class="ktop"><span class="ktag tag-cao">CAO &amp; Beloning</span><span class="kdatum">1 jan 2026</span></div><h3>Gelijkwaardige arbeidsvoorwaarden: van inlenersbeloning naar volledig pakket</h3><p>Vanaf 2026 kijkt het recruitmentbureau naar het complete pakket van de opdrachtgever: verlof, opleidingsbudget én mobiliteitsvergoedingen meegerekend. ABU en NBBU ontwikkelden wijzerbelonen.nl als hulpmiddel.</p><div class="kfoot"><span class="kbadge">💶 Gelijk werk, gelijke waarde</span><span class="kact">Actueel</span></div></article>
+    <article class="kennis-card" data-kcat="cao"><div class="ktop"><span class="ktag tag-cao">CAO &amp; Beloning</span><span class="kdatum">1 jan 2026</span></div><h3>Nieuw pensioen via StiPP: opbouw vanaf dag één</h3><p>Per 1 januari 2026 bouw je pensioen op vanaf de eerste werkdag. Totale premie: 23,4% (werkgever 15,9%, werknemer 7,5%). Pensioen telt mee in de vergelijking van gelijkwaardige beloning.</p><div class="kfoot"><span class="kbadge">🏦 StiPP Pensioen</span><span class="kact">Actueel</span></div></article>
+    <article class="kennis-card" data-kcat="cao"><div class="ktop"><span class="ktag tag-cao">CAO &amp; Beloning</span><span class="kdatum">1 jan 2026</span></div><h3>Minimumuurloon 2026: €14,71 bruto per uur</h3><p>Per 1 januari 2026 stijgt het wettelijk minimumuurloon naar €14,71 bruto (+2,16% t.o.v. 2025). Volgende aanpassing volgt per 1 juli 2026.</p><div class="kfoot"><span class="kbadge">💶 Minimumuurloon</span><span class="kact">Bijgewerkt</span></div></article>
+    <article class="kennis-card" data-kcat="cao"><div class="ktop"><span class="ktag tag-cao">CAO &amp; Beloning</span><span class="kdatum">2026</span></div><h3>Het fasensysteem 2026: Fase A, B en C uitgelegd</h3><p>Fase A: 52 weken (uitzendbeding). Fase B: max. 3 jaar of 6 contracten (wordt 2 jaar zodra Wet meer zekerheid flexwerkers ingaat in 2027). Fase C: recht op contract voor onbepaalde tijd bij het recruitmentbureau.</p><div class="kfoot"><span class="kbadge">📋 Arbeidszekerheid</span></div></article>
+    <article class="kennis-card" data-kcat="cao"><div class="ktop"><span class="ktag tag-cao">CAO &amp; Beloning</span><span class="kdatum">jan 2025</span></div><h3>ET-regeling voor arbeidsmigranten: hogere vrijstelling</h3><p>De ET-regeling laat arbeidsmigranten loon omzetten in onbelaste vergoedingen. Per 1 januari 2025 verhoogd naar 100% van de ET-kosten, wat de nettopositie aanzienlijk verbetert.</p><div class="kfoot"><span class="kbadge">✈️ Arbeidsmigranten</span></div></article>
+    <article class="kennis-card" data-kcat="wet"><div class="ktop"><span class="ktag tag-wet">Wetgeving</span><span class="kdatum">Aangenomen: 11 nov 2025</span></div><h3>Wtta: verplichte toelating voor recruitmentbureaus (2027)</h3><p>Vanaf 1 januari 2027 mogen recruitmentbureaus alleen actief zijn mét officiële toelating van de NAU. Vereisten: VOG, waarborgsom €100.000 en aantoonbare naleving. Handhaving start 1 januari 2028.</p><div class="kfoot"><span class="kbadge">📅 Toelating verplicht per 2027</span><span class="knieuw">Nieuw</span></div></article>
+    <article class="kennis-card" data-kcat="wet"><div class="ktop"><span class="ktag tag-wet">Wetgeving</span><span class="kdatum">2026–2028</span></div><h3>Wtta tijdlijn: wat moet wanneer geregeld zijn?</h3><p><strong>1 nov 2026:</strong> Aanmeldloket NAU opent. <strong>31 dec 2026:</strong> Deadline overgangsregeling. <strong>1 jan 2027:</strong> Wtta in werking. <strong>1 jul 2027:</strong> Uiterste aanvraag toelating. <strong>1 jan 2028:</strong> Handhaving start.</p><div class="kfoot"><span class="kbadge">🗓️ Deadline: jul 2027</span></div></article>
+    <article class="kennis-card" data-kcat="wet"><div class="ktop"><span class="ktag tag-wet">Wetgeving</span><span class="kdatum">2026</span></div><h3>Nederlandse Autoriteit Uitleenmarkt (NAU)</h3><p>De NAU is de nieuwe toezichthouder die beslist over toelatingen van recruitmentbureaus. Toegelaten bureaus komen in een openbaar register, controleerbaar via toelatinguitleenmarkt.nl.</p><div class="kfoot"><span class="kbadge">🏛️ toelatinguitleenmarkt.nl</span></div></article>
+    <article class="kennis-card" data-kcat="wet"><div class="ktop"><span class="ktag tag-wet">Wetgeving</span><span class="kdatum">Verwacht: 1 jan 2027</span></div><h3>Wet meer zekerheid flexwerkers: nulurencontracten verdwijnen</h3><p>Nulurencontracten worden verboden. Daarvoor in de plaats: het bandbreedtecontract (max 130% boven minimum). Fase B wordt ingekort van 3 naar 2 jaar. Ketenregeling tussenpoos: 5 jaar.</p><div class="kfoot"><span class="kbadge">⚖️ Flexwet 2027</span><span class="kact">Actueel</span></div></article>
+    <article class="kennis-card" data-kcat="wet"><div class="ktop"><span class="ktag tag-wet">Wetgeving</span><span class="kdatum">Handhaving jan 2025 · update jan 2026</span></div><h3>Wet DBA &amp; schijnzelfstandigheid: handhaving aangescherpt in 2026</h3><p>Alle sectoren zijn per 1 januari 2026 in scope, direct boetes mogelijk. Gevolg: bedrijven kiezen vaker voor uitzendkrachten boven zzp'ers vanwege de zekerheid.</p><div class="kfoot"><span class="kbadge">⚠️ Schijnzelfstandigheid</span><span class="kact">Bijgewerkt</span></div></article>
+    <article class="kennis-card" data-kcat="wet"><div class="ktop"><span class="ktag tag-wet">Wetgeving</span><span class="kdatum">Wetsvoorstel 2025–2026</span></div><h3>Wet VBAR: wanneer ben je werknemer en wanneer zzp'er?</h3><p>Drie criteria: ondergeschiktheid, inbedding in de organisatie, en niet-zelfstandig ondernemerschap. Beoogde inwerkingtreding: 1 januari 2027.</p><div class="kfoot"><span class="kbadge">⚖️ ZZP vs. Werknemer</span></div></article>
+    <article class="kennis-card" data-kcat="wet"><div class="ktop"><span class="ktag tag-wet">Wetgeving</span><span class="kdatum">Basiswetgeving</span></div><h3>Waadi: de basiswet voor alle recruitmentbureaus</h3><p>Kernpunten: gelijk loon voor gelijk werk, geen bemiddelingskosten voor werkzoekenden, eisen aan intermediairs. De Wtta bouwt voort op de Waadi.</p><div class="kfoot"><span class="kbadge">⚖️ Basiswetgeving</span></div></article>
+    <article class="kennis-card" data-kcat="keur"><div class="ktop"><span class="ktag tag-keur">Keurmerken</span><span class="kdatum">Vereist voor Wtta</span></div><h3>SNA-keurmerk &amp; NEN 4400-1: verplichte basis voor toelating</h3><p>Bewijst correcte loon- en belastingafdracht, identiteitscontrole en nette personeelsadministratie. Bureaus worden elke 6 maanden gecontroleerd en is de basis voor Wtta-overgangsrecht.</p><div class="kfoot"><span class="kbadge">✅ normeringarbeid.nl</span></div></article>
+    <article class="kennis-card" data-kcat="keur"><div class="ktop"><span class="ktag tag-keur">Keurmerken</span><span class="kdatum">2025–2026</span></div><h3>ABU en NBBU: de brancheorganisaties van recruitmentbureaus</h3><p>ABU en NBBU stellen de CAO voor Uitzendkrachten vast en lanceerden wijzerbelonen.nl voor de overgang naar gelijkwaardige beloning. Lidmaatschap vereist een SNA-keurmerk.</p><div class="kfoot"><span class="kbadge">🏛️ abu.nl · nbbu.nl</span></div></article>
+    <article class="kennis-card" data-kcat="markt"><div class="ktop"><span class="ktag tag-markt">Arbeidsmarkt</span><span class="kdatum">Begin 2026</span></div><h3>Arbeidsmarkt 2026: krapte blijft, vraag naar uitzendkrachten stijgt</h3><p>Nederland telde begin 2025 meer dan 3,9 miljoen flexwerkers. Door strengere handhaving op schijnzelfstandigheid kiezen werkgevers vaker voor uitzendkrachten. De krappe markt vergroot de selectie op kwaliteit van het bureau.</p><div class="kfoot"><span class="kbadge">📈 Kansen voor jou</span></div></article>
+    <article class="kennis-card" data-kcat="markt"><div class="ktop"><span class="ktag tag-markt">Arbeidsmarkt</span><span class="kdatum">Verwacht: 1 jan 2027</span></div><h3>Nulurencontracten verdwijnen: wat komt ervoor in de plaats?</h3><p>Nulurencontracten worden verboden zodra de Wet meer zekerheid flexwerkers ingaat. Daarvoor: het bandbreedtecontract met min- en maximumuren (max 130%). Uitzondering: scholieren tot gemiddeld 16 uur per week.</p><div class="kfoot"><span class="kbadge">🔄 Bandbreedtecontract</span></div></article>
+    <article class="kennis-card" data-kcat="markt"><div class="ktop"><span class="ktag tag-markt">Arbeidsmarkt</span><span class="kdatum">jan 2026</span></div><h3>Inlenersaansprakelijkheid: risico's bij verkeerde bureaukeuze</h3><p>Als een recruitmentbureau loonheffingen niet afdraagt, kan de Belastingdienst de inlener aansprakelijk stellen. SNA-keurmerk plus g-rekening geeft vrijwaring. Vanaf 1 jan 2028 ook boetes voor inleners van niet-toegelaten bureaus.</p><div class="kfoot"><span class="kbadge">🔐 Aansprakelijkheid</span></div></article>
+    <article class="kennis-card" data-kcat="tips"><div class="ktop"><span class="ktag tag-tips">Tips voor werkzoekenden</span><span class="kdatum">jan 2026</span></div><h3>5 dingen die je moet weten als je via een recruitmentbureau werkt</h3><p><strong>1.</strong> Recht op volledig gelijkwaardig pakket (CAO 2026). <strong>2.</strong> Fase A: contract kan eindigen als opdracht stopt. <strong>3.</strong> Pensioen via StiPP vanaf dag één. <strong>4.</strong> Recht op loondoorbetaling bij ziekte. <strong>5.</strong> StandIn is jouw werkgever. Stel je vragen aan ons.</p><div class="kfoot"><span class="kbadge">💡 Rechten &amp; Plichten</span></div></article>
+    <article class="kennis-card" data-kcat="tips"><div class="ktop"><span class="ktag tag-tips">Tips voor werkzoekenden</span><span class="kdatum">2026</span></div><h3>Heb jij recht op een transitievergoeding?</h3><p>Als uitzendkracht heb je recht op een transitievergoeding als je contract na twee jaar of langer wordt beëindigd door het recruitmentbureau. De vergoeding bedraagt 1/3 maandloon per gewerkt jaar.</p><div class="kfoot"><span class="kbadge">💼 Ontslagrecht</span></div></article>
+    <article class="kennis-card" data-kcat="tips"><div class="ktop"><span class="ktag tag-tips">Tips voor werkzoekenden</span><span class="kdatum">2026</span></div><h3>Controleer je loonstrook: zo weet je of je correct betaald wordt</h3><p>Vanaf 2026 geldt gelijkwaardige beloning. Controleer toeslagen, overwerk en secundaire voorwaarden. Op wijzerbelonen.nl vind je rekenvoorbeelden. Je hebt recht om de vergelijking van jouw bureau te zien.</p><div class="kfoot"><span class="kbadge">🔍 Controleer je rechten</span><span class="kact">Tip</span></div></article>
+  </div>
+  <div style="text-align:center;margin-top:2.5rem">
+    <a href="kenniscentrum.html" class="btn-outline">Bekijk alle artikelen in het kenniscentrum →</a>
+  </div>
+</section>
+
+<!-- HOE HET WERKT -->
+<section class="section bg-cream" aria-label="Hoe werkt StandIn - 4 stappen">
+  <div class="sec-label">Onze werkwijze</div>
+  <h2 class="sec-title">In vier stappen naar<br><em>werk dat bij je past</em></h2>
+  <div class="stappen-grid">
+    <div class="stap"><div class="stap-num" aria-hidden="true">1</div><h3>Schrijf je in</h3><p>Maak een profiel op standin.works en vertel wat je zoekt. Gratis en vrijblijvend.</p></div>
+    <div class="stap"><div class="stap-num" aria-hidden="true">2</div><h3>Persoonlijk gesprek</h3><p>Een van onze consultants neemt contact op. We bespreken jouw ambities en mogelijkheden.</p></div>
+    <div class="stap"><div class="stap-num" aria-hidden="true">3</div><h3>Passende match</h3><p>Wij koppelen jou aan de meest passende vacature bij een van onze topwerkgevers.</p></div>
+    <div class="stap"><div class="stap-num" aria-hidden="true">4</div><h3>Aan de slag!</h3><p>Je start en wij blijven betrokken. Begeleiding, evaluaties en doorstroom regelen wij voor je.</p></div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-strip" aria-label="Schrijf je in bij StandIn recruitmentbureau">
+  <h2>Klaar voor werk dat<br><em>echt bij jou past?</em></h2>
+  <a href="https://standin.works/my-profile/#tab2" class="btn-white">Schrijf je gratis in →</a>
+</section>
+
+<!-- PARTNERS -->
+<section class="partner-strip" aria-label="Onze opdrachtgevers en partners">
+  <div class="partner-label">Onze opdrachtgevers</div>
+  <div class="partner-pills">
+    <span class="partner-pill"><span class="dot" style="background:#E30613"></span>Rhenus Logistics</span>
+    <span class="partner-pill"><span class="dot" style="background:#F5821F"></span>Bouwmaat XL Eindhoven</span>
+    <span class="partner-pill"><span class="dot" style="background:#003B7C"></span>WDK Logistics</span>
+    <span class="partner-pill"><span class="dot" style="background:#2E7D32"></span>Roel Ottenheim Logistics</span>
+    <span class="partner-pill"><span class="dot" style="background:#1565C0"></span>Nisbets</span>
+    <span class="partner-pill"><span class="dot" style="background:#FFD700;outline:1px solid #ddd"></span>ALDI</span>
+    <span class="partner-pill"><span class="dot" style="background:#E30513"></span>HEMA</span>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer role="contentinfo" aria-label="Voettekst StandIn">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="foot-logo">Stand<span>In</span></div>
+      <p>Recruitmentbureau gespecialiseerd in retail, logistiek en industrie. Al meer dan zeven jaar bouwen wij aan duurzame professionele relaties. Zonder aandeelhouders, met een warm hart voor mensen.</p>
+      <address class="foot-nap" style="font-style:normal;font-size:0.83rem;color:rgba(255,255,255,0.55);margin-top:1rem;display:flex;flex-direction:column;gap:0.3rem">
+        <span>📍 Lichttoren 32, 5611 BJ Eindhoven</span>
+        <span>📞 <a href="tel:+31403041443" style="color:rgba(255,255,255,0.55);text-decoration:none">040 304 1443</a></span>
+      </address>
+      <div class="foot-nums">
+        <div><div class="f-num">73</div><div class="f-label">Vacatures</div></div>
+        <div><div class="f-num">165</div><div class="f-label">Kandidaten</div></div>
+        <div><div class="f-num">20+</div><div class="f-label">Partners</div></div>
+      </div>
+    </div>
+    <nav class="foot-nav" aria-label="Werkzoekenden navigatie">
+      <h4>Werkzoekenden</h4>
+      <ul>
+        <li><a href="https://standin.works/werkzoekenden/onze-werkbeloftes/">Onze werkbeloftes</a></li>
+        <li><a href="https://standin.works/werkzoekenden/onze-werkwijze/">Onze werkwijze</a></li>
+        <li><a href="https://standin.works/werkzoekenden/werken-bij-onze-topwerkgevers/">Topwerkgevers</a></li>
+        <li><a href="https://standin.works/werkzoekenden/werken-binnen-de-retail/">Werken in retail</a></li>
+        <li><a href="https://standin.works/artikelen-tips/">Artikelen &amp; tips</a></li>
+      </ul>
+    </nav>
+    <nav class="foot-nav" aria-label="Werkgevers navigatie">
+      <h4>Werkgevers</h4>
+      <ul>
+        <li><a href="werkgevers.html">Personeel inlenen</a></li>
+        <li><a href="https://standin.works/werkgevers/onze-werkwijze/">Onze werkwijze</a></li>
+        <li><a href="https://standin.works/werkgevers/alle-hrm-diensten/">Alle HRM diensten</a></li>
+        <li><a href="kenniscentrum.html">Kenniscentrum</a></li>
+      </ul>
+    </nav>
+    <nav class="foot-nav" aria-label="Over StandIn navigatie">
+      <h4>Over StandIn</h4>
+      <ul>
+        <li><a href="over-standin.html">Over StandIn</a></li>
+        <li><a href="https://standin.works/over-standin/onze-locaties/">Onze locaties</a></li>
+        <li><a href="https://standin.works/over-standin/werken-bij-standin/">Werken bij StandIn</a></li>
+        <li><a href="https://standin.works/nieuws/">Nieuws</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="foot-bottom">
+    <span>© 2026 StandIn – recruitmentbureau voor Retail &amp; Logistiek in Nederland</span>
+    <div class="foot-legal">
+      <a href="https://standin.works/cookies/">Cookies</a>
+      <a href="https://standin.works/privacybeleid/">Privacybeleid</a>
+      <a href="https://standin.works/algemene-voorwaarden/">Voorwaarden</a>
+      <a href="https://standin.works/moreel-kompas/">Moreel Kompas</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+function filterVac(cat, btn) {
+  document.querySelectorAll('.filter-row .fbtn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.vac-card').forEach(card => {
+    card.style.display = (cat === 'alle' || card.dataset.cat === cat) ? 'flex' : 'none';
+  });
+}
+function filterKennis(cat, btn) {
+  document.querySelectorAll('#kenniscentrum .fbtn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.kennis-card').forEach(card => {
+    card.style.display = (cat === 'alle' || card.dataset.kcat === cat) ? 'flex' : 'none';
+  });
+}
+</script>
+
+
+
+<script src="/chat-widget.js"></script>
 </body>
 </html>
