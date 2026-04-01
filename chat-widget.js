@@ -321,16 +321,16 @@
       /* ── HOME panel ── */
       '<div class="si-panel active" data-panel="home">' +
         '<div class="si-home">' +
-          /* Contact form row */
-          '<a class="si-row si-row-msg" href="/contact.html">' +
-            '<div class="si-row-icon si-row-icon-msg">' + ic.send + '</div>' +
-            '<div class="si-row-text"><strong>Stuur ons een bericht</strong><span>We reageren binnen \xe9\xe9n werkdag</span></div>' +
-            '<span class="si-row-arr">' + ic.arr + '</span>' +
-          '</a>' +
           /* WhatsApp row */
           '<a class="si-row si-row-wa" href="' + WA_LINK + '" target="_blank" rel="noopener">' +
             '<div class="si-row-icon si-row-icon-wa">' + ic.wa + '</div>' +
             '<div class="si-row-text"><strong>WhatsApp ons</strong><span>Snel antwoord via WhatsApp</span></div>' +
+            '<span class="si-row-arr">' + ic.arr + '</span>' +
+          '</a>' +
+          /* Contact form row */
+          '<a class="si-row si-row-msg" href="/contact.html">' +
+            '<div class="si-row-icon si-row-icon-msg">' + ic.send + '</div>' +
+            '<div class="si-row-text"><strong>Contactformulier</strong><span>Uitgebreide vraag? Gebruik ons formulier</span></div>' +
             '<span class="si-row-arr">' + ic.arr + '</span>' +
           '</a>' +
           /* Search */
